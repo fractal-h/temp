@@ -14,8 +14,8 @@ export type PlayerData = {
 };
 
 -- Services
-local Promise = require(game.ReplicatedStorage.Assets.Shared.Modules.Services.Promise); -- https://github.com/fractal-h/Roblox-Packages/blob/main/Examples/promise.luau
-local Event = require(game.ReplicatedStorage.Assets.Shared.Modules.Services.Event); -- https://github.com/fractal-h/Roblox-Packages/blob/main/Examples/event.luau
+local Promise = require(game.ReplicatedStorage.Assets.Shared.Modules.Services.Promise); -- https://github.com/fractal-h/Roblox-Packages/blob/main/Promise.luau
+local Event = require(game.ReplicatedStorage.Assets.Shared.Modules.Services.Event); -- https://github.com/fractal-h/Roblox-Packages/blob/main/Event.luau
 local Players = game:GetService("Players");
 local marketplace = game:GetService("MarketplaceService");
 local gamepassData = require(game.ReplicatedStorage.Assets.Shared.Modules.Data.MonetizationData);
